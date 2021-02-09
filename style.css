@@ -108,3 +108,10 @@ select {
   cursor: pointer;
   pointer-events: none;
 }
+
+@media only screen and (max-width: 1200px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+}
