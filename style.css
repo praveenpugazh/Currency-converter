@@ -110,6 +110,9 @@ select {
 }
 
 @media only screen and (max-width: 1200px) {
+  h2 {
+    margin: 5px;
+  }
   main {
     display: flex;
     flex-direction: column;
